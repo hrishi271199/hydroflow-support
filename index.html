@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroFlow - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+            border-radius: 26px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+        
+        h1 {
+            color: #1e293b;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            color: #64748b;
+            font-size: 1.2em;
+        }
+        
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+        }
+        
+        h2 {
+            color: #334155;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #1e293b;
+            transition: transform 0.2s;
+        }
+        
+        .contact-item:hover {
+            transform: translateX(5px);
+        }
+        
+        .icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .faq {
+            list-style: none;
+        }
+        
+        .faq li {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+        }
+        
+        .faq strong {
+            color: #0ea5e9;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #64748b;
+        }
+        
+        .app-store-badge {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">💧</div>
+            <h1>HydroFlow</h1>
+            <p class="tagline">Your Personal Hydration Companion</p>
+        </div>
+        
+        <div class="section">
+            <h2>📧 Contact Support</h2>
+            <div class="contact-info">
+                <a href="mailto:support@hydroflow.app" class="contact-item">
+                    <div class="icon">✉️</div>
+                    <div>
+                        <strong>Email Support</strong>
+                        <div style="color: #64748b;">support@hydroflow.app</div>
+                    </div>
+                </a>
+                
+                <a href="https://twitter.com/hydroflowapp" class="contact-item" target="_blank">
+                    <div class="icon">🐦</div>
+                    <div>
+                        <strong>Twitter</strong>
+                        <div style="color: #64748b;">@hydroflowapp</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>❓ Frequently Asked Questions</h2>
+            <ul class="faq">
+                <li>
+                    <strong>How do I track my water intake?</strong>
+                    Simply tap the quick-add buttons on the home screen or use the custom amount feature for precise tracking.
+                </li>
+                
+                <li>
+                    <strong>What are Premium features?</strong>
+                    Premium unlocks real-time drinking tracking, dehydration factor monitoring (alcohol, caffeine, exercise), and smart goal adjustments.
+                </li>
+                
+                <li>
+                    <strong>How do I restore my purchase?</strong>
+                    Go to Settings → Premium → Restore Purchases to restore your subscription on a new device.
+                </li>
+                
+                <li>
+                    <strong>How do I cancel my subscription?</strong>
+                    Open Settings app → Your Name → Subscriptions → HydroFlow → Cancel Subscription. You'll retain access until the end of your billing period.
+                </li>
+                
+                <li>
+                    <strong>Is my data private?</strong>
+                    Yes! All your data stays on your device. We don't collect or store any personal information.
+                </li>
+                
+                <li>
+                    <strong>How accurate is the real-time tracker?</strong>
+                    The tracker uses intelligent speed detection (Normal, Moderate, Fast, Straw) to estimate water consumption. For best results, select the speed that matches your drinking pattern.
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>✨ About HydroFlow</h2>
+            <p>HydroFlow is designed to help you build and maintain healthy hydration habits. With beautiful visualizations, smart tracking, and comprehensive insights, staying hydrated has never been easier.</p>
+            
+            <p style="margin-top: 15px;"><strong>Features:</strong></p>
+            <ul style="margin-left: 20px; margin-top: 10px; color: #475569;">
+                <li>Beautiful animated water bottle visualization</li>
+                <li>Quick-add buttons and custom amounts</li>
+                <li>Calendar history and statistics</li>
+                <li>Real-time drinking tracker (Premium)</li>
+                <li>Dehydration factor tracking (Premium)</li>
+                <li>Smart hydration goals (Premium)</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 HydroFlow. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                <a href="privacy.html" style="color: #0ea5e9; text-decoration: none;">Privacy Policy</a> • 
+                <a href="terms.html" style="color: #0ea5e9; text-decoration: none;">Terms of Service</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
